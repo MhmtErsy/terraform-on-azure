@@ -26,7 +26,7 @@ xxxxx-xxxxxxxxxxxxx \
 terraform init
 
 ## Check the plan
-terraform plan -var-file="main.tfvars"
+terraform plan -var-file="secrets.tfvars"
 
 ## Apply 
 terraform apply
